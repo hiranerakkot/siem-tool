@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ti-001",
+    "indicator": "185.243.112.44",
+    "type": "ip",
+    "threat": "C2 Infrastructure",
+    "confidence": "high",
+    "source": "OpenCTI"
+  },
+  {
+    "id": "ti-002",
+    "indicator": "evil-updater.exe",
+    "type": "file",
+    "threat": "Trojan Downloader",
+    "confidence": "medium",
+    "source": "MISP"
+  },
+  {
+    "id": "ti-003",
+    "indicator": "hxxp://freepatch-now[.]com",
+    "type": "url",
+    "threat": "Phishing",
+    "confidence": "high",
+    "source": "OTX"
+  }
+]

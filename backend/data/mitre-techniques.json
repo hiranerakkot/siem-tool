@@ -1,0 +1,7 @@
+{
+  "failed_login": {"techniqueId": "T1110", "name": "Brute Force", "tactic": "Credential Access"},
+  "powershell_exec": {"techniqueId": "T1059.001", "name": "PowerShell", "tactic": "Execution"},
+  "suspicious_process": {"techniqueId": "T1059", "name": "Command and Scripting Interpreter", "tactic": "Execution"},
+  "lateral_movement": {"techniqueId": "T1021", "name": "Remote Services", "tactic": "Lateral Movement"},
+  "privilege_escalation": {"techniqueId": "T1068", "name": "Exploitation for Privilege Escalation", "tactic": "Privilege Escalation"}
+}
