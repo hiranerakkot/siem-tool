@@ -1,0 +1,91 @@
+:root {
+  font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+  color: #e5e7eb;
+  background-color: #0f172a;
+}
+
+body {
+  margin: 0;
+  background: #0f172a;
+}
+
+.layout {
+  padding: 1.2rem;
+}
+
+header h1 {
+  margin: 0 0 0.25rem;
+}
+
+header p {
+  margin: 0 0 1rem;
+  color: #9ca3af;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1rem;
+}
+
+.panel {
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.panel h2 {
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+td,
+th {
+  border-bottom: 1px solid #1f2937;
+  padding: 0.4rem;
+  text-align: left;
+}
+
+.log-stream {
+  max-height: 220px;
+  overflow: auto;
+  display: grid;
+  gap: 0.5rem;
+}
+
+.log-stream article {
+  background: #1f2937;
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+.muted {
+  color: #9ca3af;
+  font-size: 0.82rem;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.chips span {
+  background: #1e3a8a;
+  padding: 0.2rem 0.5rem;
+  border-radius: 9999px;
+  font-size: 0.78rem;
+}
+
+.incident {
+  border-left: 4px solid #dc2626;
+  padding-left: 0.5rem;
+  margin-bottom: 0.6rem;
+}
